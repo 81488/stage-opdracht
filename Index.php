@@ -19,20 +19,10 @@
 	<title>Game Page</title>
 </head>
 <body>
-<div class="scoreContainer">
-  <div class="Scoreboard">
-    <li>1:</li>
-    <li>2:</li>
-    <li>3:</li>
-    <li>4:</li>
-    <li>5:</li>
-  </div>
-</div>
 <div class="Title">
     <h1>Numbers</h1>
 </div>
 <div class="number-container">
-    <div class="number"><p class="random"></p></div>
 </div>
     <table class="main-container">
         <tbody>
@@ -41,7 +31,7 @@
                 <td><button type="button" class="btn btn-dark reset">Reset</button></td>
             </tr>
             <tr>
-                <td><button type="button" class="btn btn-dark code"><p id="code"></p><p id="code1"></p></button></td>
+                <td><button type="button" class="btn btn-dark code"><p id="code"></p></button></td>
                 <td><button type="button" class="btn btn-dark pressed"><p id="pressed"></p></button></td>
             </tr>
             <tr>
